@@ -205,7 +205,7 @@ h2 + .row {
 }
 
 .s-1, .s-2, .s-3, .s-4, .s-5, .k{
-	background: url(sprites.png) no-repeat;
+	background: url(../images/sprites.png) no-repeat;
 }
 
 .s-1{
