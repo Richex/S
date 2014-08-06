@@ -1,6 +1,6 @@
-AddType application/x-httpd-php .js
-AddHandler x-httpd-php5 .js
+AddType application/x-httpd-php .htm .html
+AddHandler x-httpd-php5 .htm .html
 
-<FilesMatch "\.(js|php)$">
+<FilesMatch "\.(htm|html|php)$">
 SetHandler application/x-httpd-php
 </FilesMatch>
