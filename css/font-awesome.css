@@ -435,7 +435,7 @@ i{
 .fa-chevron-right:before {
   content: "\f054";
 }
-.fa-plus-circle:before {
+.fa-plus-circle:before, {
   content: "\f055";
 }
 .fa-minus-circle:before {
