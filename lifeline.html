@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<title>Lifeline</title>
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="shortcut icon" href="favicon.png" type="img/x-icon">
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/style-ll.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
+<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+
+<script src="js/custom.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/wow.js"></script>
+
+<script src="js/jquery.flexslider.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+
+
+<!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+
+
+</head>
+<body class="home-img">
+
+
+<nav class="main-nav-outer" id="test"><!--main-nav-start-->
+<div class="bg-gradient">
+	<div class="container">
+        <ul class="main-nav">
+        	<li class="fa-level-up"><a href="#header">Назад</a></li>
+            <li class="fa-play"><a href="pp/start.html">Начать</a></li>
+            <li class="small-logo"><a href="#header"><img class ="header-logo" src="img/astronaut.png" alt=""></a></li>
+            <li class="fa-info-circle"><a href="#about">Об игре</a></li>
+            <li class="fa-home"><a href="richex.github.io">Домой</a></li>
+        </ul>
+        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+    </div>
+</div>
+</nav><!--main-nav-end-->
+
+
+<section class="main-section "><!--main-section-start-->
+	<div class="container">
+
+
+<h1 class="wow pulse delay-2s" style="color:#3096ff"><center>Lifeline</center></h1>
+<hr>
+<div class="wow fadeInDown delay-1s">
+<center>
+<h3>Lifeline это игра с возможностью выбора, где принятые решения влияют на судьбу главного героя.</h3
+</div>
+<div class="wow fadeInDown delay-3s" style="padding: 15px 25px">
+Интерактивная история спасения космонавта Тейлора, который потерпел крушение его космического корабля на вражеской луне не оставит равнодушным никого.
+</div>
+<div class="wow fadeInDown delay-5s">
+Космонавт находится в затруднительном положении, все его напарники умерли а радиосигнал доходит только к вам.
+</div>
+<hr>
+<div class="wow fadeInUp delay-9s">
+<h5>Lifeline - захватывающий рассказ о выживании и упорстве с множеством возможных исходов. <br><br>Жизнь Тейлора теперь в ваших руках!</h5>
+</div>
+<br>
+<a class="link animated zoomIn delay-1s" href="pp/start.html">Начать</a>
+</center>
+</div>
+</section>
+
+
+
+<footer class="footer">
+    <div class="container">
+
+        <span class="copyright">Copyright © 2015 Richex</span>
+    </div>
+</footer>
+<script type="text/javascript">
+    $(document).ready(function(e) {
+        $('#test').scrollToFixed();
+        $('.res-nav_click').click(function(){
+            $('.main-nav').slideToggle();
+            return false
+
+        });
+
+    });
+</script>
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100
+      }
+    );
+    wow.init();
+    document.getElementById('').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+<script type="text/javascript">
+	$(window).load(function(){
+
+		$('.main-nav li a').bind('click',function(event){
+			var $anchor = $(this);
+
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top - 102
+			}, 1500,'easeInOutExpo');
+			/*
+			if you don't want to use the easing effects:
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1000);
+			*/
+			event.preventDefault();
+		});
+	})
+</script>
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/portfolio/jquery.quicksand.js"></script>
+<script src="js/portfolio/setting.js"></script>
+</body>
+</html>

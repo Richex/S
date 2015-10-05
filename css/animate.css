@@ -68,40 +68,53 @@ opacity: 0;
 -webkit-animation-name: flash;
 animation-name: flash;
 }
+@-webkit-keyframes anti-flash {
+0%, 40%, 80%, 100% {
+opacity: 0;
+}
+20%, 60%, 90% {
+opacity: 1;
+}
+}
+@keyframes anti-flash {
+0%, 40%, 80%, 100% {
+opacity: 1;
+}
+20%, 60%, 90% {
+opacity: 0;
+}
+}
+.anti-flash {
+-webkit-animation-name: anti-flash;
+animation-name: anti-flash;
+}
 @-webkit-keyframes pulse {
-0% {
+0%, 20%, 30%, 40%, 60%, 70%, 80%, 100% {
 -webkit-transform: scale(1);
 transform: scale(1);
 }
-50% {
+10%, 50%, 90%  {
 -webkit-transform: scale(1.1);
 transform: scale(1.1);
-}
-100% {
--webkit-transform: scale(1);
-transform: scale(1);
 }
 }
 @keyframes pulse {
-0% {
+0%, 20%, 30%, 40%, 60%, 70%, 80%, 100%  {
 -webkit-transform: scale(1);
 -ms-transform: scale(1);
 transform: scale(1);
 }
-50% {
+10%, 50%, 90% {
 -webkit-transform: scale(1.1);
 -ms-transform: scale(1.1);
 transform: scale(1.1);
-}
-100% {
--webkit-transform: scale(1);
--ms-transform: scale(1);
-transform: scale(1);
 }
 }
 .pulse {
 -webkit-animation-name: pulse;
 animation-name: pulse;
+-webkit-animation-duration: 10s;
+animation-duration: 10s;
 }
 @-webkit-keyframes rubberBand {
 0% {
