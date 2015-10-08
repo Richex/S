@@ -113,8 +113,8 @@ transform: scale(1.1);
 .pulse {
 -webkit-animation-name: pulse;
 animation-name: pulse;
--webkit-animation-duration: 10s;
-animation-duration: 10s;
+-webkit-animation-duration: 7s;
+animation-duration: 7s;
 }
 @-webkit-keyframes rubberBand {
 0% {
