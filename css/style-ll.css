@@ -211,6 +211,7 @@ transition:all 0.3s ease-in-out;
 	opacity:0.5;
 }
 .home-img {
+	background:#111;
 	background:url("../img/bg.jpg") top center fixed no-repeat;
 
 }
