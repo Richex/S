@@ -165,7 +165,7 @@ padding:0px;
 border-bottom:1px solid #63CDFF;
 box-shadow:0 4px 5px -3px #688AEA;
 position:relative;
-background: #ffffff url("../img/asfalt.png") repeat;
+background: #111 url("../img/asfalt.png") repeat;
 width: 100% !important;
 }
 .main-nav{
@@ -219,7 +219,7 @@ padding:0px;
 border-bottom:1px solid #dddddd;
 box-shadow:0 4px 5px -3px #ececec;
 position:relative;
-background:#fff;
+background:#111;
 }
 .main-navigation{
 text-align:center;
@@ -1036,7 +1036,7 @@ p{ line-height:18px;}
 .header h1{ font-size:28px;}
 .header{ padding:60px 0;}
 .main-section{ padding:60px 0 70px;}
-.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; float : none; z-index: 2; background:#fff;}
+.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; float : none; z-index: 2; background:#111;}
 .main-nav li{ display:block;}
 .main-nav li.small-logo{ display:none;}
 .main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
