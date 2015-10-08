@@ -683,7 +683,7 @@ border-top:1px solid #333;
 padding:35px 0 35px;
 bottom:0px;
 margin:auto, 0px, 0px, auto;
-position:fixed;
+position:absolute;
 width:100%;
 }
 .footer-logo{
