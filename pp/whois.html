@@ -40,7 +40,7 @@
 
 
 </head>
-<body class=replace-bg-img>
+<body class=replace-bg-img onload="load()">
 
 
 <nav class="main-nav-outer" id="test"><!--main-nav-start-->
@@ -58,7 +58,7 @@
 </div>
 </nav><!--main-nav-end-->
 
-
+<div id="main-text" style="display:none;">
 <section class="main-section" id="header"><!--main-section-start-->
 	<div class="container">
 
@@ -82,7 +82,7 @@
 
 </div>
 </section>
-
+</div>
 
 
 
@@ -191,6 +191,6 @@ function addFavorite(a) {
   ga('send', 'pageview');
 
 </script>
-
+<script>function load(){document.getElementById('main-text').style.display="block";}</script>
 </body>
 </html>
