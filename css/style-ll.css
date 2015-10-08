@@ -677,7 +677,7 @@ transition:all 0.3s ease-in-out;
 background: #111;
 color: #fff;
 }
-.footer, footer{
+.footer,{
 background: #111 url("../img/asfalt.png") repeat;
 border-top:1px solid #333;
 padding:10px 0 10px;
