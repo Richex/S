@@ -212,7 +212,7 @@ transition:all 0.3s ease-in-out;
 }
 .home-img {
 	background:url("../img/bg.jpg") top center fixed no-repeat;
-height:100%;
+
 }
 .main-navigation-outer{
 padding:0px;
