@@ -678,10 +678,11 @@ background: #111;
 color: #fff;
 }
 .footer, footer{
-background: #ffffff url("../img/asfalt.png") repeat;
+background: #111 url("../img/asfalt.png") repeat;
 border-top:1px solid #333;
 padding:35px 0 35px;
 bottom:0px;
+margin:auto, 0px, 0px, auto;
 position:fixed;
 width:100%;
 }
