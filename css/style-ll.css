@@ -212,7 +212,8 @@ transition:all 0.3s ease-in-out;
 }
 .home-img {
 	background:#111;
-	background:url("../img/bg.jpg") top center fixed no-repeat;
+	background-color: #111;
+	background:#111 url("../img/bg.jpg") top center fixed no-repeat;
 
 }
 .main-navigation-outer{
