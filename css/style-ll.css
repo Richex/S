@@ -214,7 +214,9 @@ transition:all 0.3s ease-in-out;
 	background:#111;
 	background-color: #111;
 	background:#111 url("../img/bg.jpg") top center fixed no-repeat;
-
+}
+.shadow {
+	text-shadow: 1px 1px 0 #000;
 }
 .main-navigation-outer{
 padding:0px;
