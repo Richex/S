@@ -134,6 +134,7 @@ margin-bottom:20px;
 transition:all 0.3s ease-in-out;
 -moz-transition:all 0.3s ease-in-out;
 -webkit-transition:all 0.3s ease-in-out;
+
 }
 .link:hover {
 text-decoration:none;
@@ -149,16 +150,19 @@ color:#fff !important;
 background:#262640;
 color:#fff !important;
 text-decoration:none;
+box-shadow: 1px 1px 0 #111;
 }
 .choise:hover {
 color:#fff !important;
 background:#515166;
 text-decoration:none;
+box-shadow: 1px 1px 0 #222;
 }
 .choise:active, .choise:focus {
 background: #747485;
 color:#fff !important;
 text-decoration:none;
+box-shadow: 0px 0px 0 #111;
 }
 .main-nav-outer{
 padding:0px;
