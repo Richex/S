@@ -36,8 +36,9 @@ html {
 }
 body {
 background:#1B1B1B;
+background: url("../img/noise.png") repeat;
 font-family: 'Open Sans', sans-serif;
-font-size:2em;
+font-size:1.7em;
 font-weight:normal;
 color:#d6d6d6;
 margin:0;
@@ -123,7 +124,7 @@ color: #fff;
 padding:15px 35px;
 background:#056bd4;
 color:#fff !important;
-font-size:16px;
+font-size:14px;
 font-weight:400;
 font-family: 'Open Sans', sans-serif;
 display:inline-block;
@@ -263,7 +264,7 @@ color: #7cc576;
 padding:0 32px;
 }
 .main-section{
-padding:90px 0 110px;
+padding:20px 0 110px;
 
 }
 .service-list{
@@ -697,6 +698,9 @@ bottom:0px;
 margin:auto, 0px, 0px, auto;
 position:absolute;
 width:100%;
+}
+.choise {
+
 }
 .footer-logo{
 margin:15px auto 35px;
